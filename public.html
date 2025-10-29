@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Join our Cricket Prediction Telegram channel for daily match tips, toss insights, and winning updates." />
+  <title>Cricket Prediction Updates</title>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #001f3f, #0074d9);
+      color: #fff;
+      text-align: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Cricket SVG Vector Background */
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Cg stroke='rgba(255,255,255,0.1)' stroke-width='5' stroke-linecap='round' fill='none'%3E%3Cpath d='M350 300 L350 450 M370 300 L370 450 M390 300 L390 450'/%3E%3Cpath d='M345 295 L355 295 M365 295 L375 295 M385 295 L395 295'/%3E%3Cpath d='M200 400 L250 480 L260 470 L210 390 Z' fill='rgba(255,255,255,0.07)'/%3E%3Ccircle cx='600' cy='180' r='35' fill='rgba(255,255,255,0.06)' stroke='rgba(255,255,255,0.15)' stroke-width='4'/%3E%3Cpath d='M580 170 A30 30 0 0 1 620 190' stroke='rgba(255,255,255,0.15)' stroke-width='2'/%3E%3Cpath d='M150 480 Q400 520 650 480'/%3E%3C/g%3E%3C/svg%3E") center/cover no-repeat;
+      opacity: 0.35;
+      z-index: 0;
+    }
+
+    /* 🔹 Floating Top Button (outside container) */
+    .top-btn {
+      position: absolute;
+      top: calc(50% - 270px); /* Slightly above container */
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.9rem 2.4rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1.05rem;
+      z-index: 2;
+      animation: floatGlow 4s ease-in-out infinite;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px rgba(0, 200, 255, 0.4);
+    }
+
+    @keyframes floatGlow {
+      0%, 100% {
+        transform: translateY(0);
+        box-shadow: 0 0 15px rgba(0, 200, 255, 0.4);
+      }
+      50% {
+        transform: translateY(-8px);
+        box-shadow: 0 0 30px rgba(0, 200, 255, 0.8);
+      }
+    }
+
+    .top-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(0, 200, 255, 0.8);
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.12);
+      padding: 2.2rem 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+      width: 90%;
+      max-width: 420px;
+      backdrop-filter: blur(10px);
+      animation: fadeIn 1.2s ease-in-out;
+      z-index: 1;
+      margin-top: 40px;
+    }
+
+    .logo-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 0 10px rgba(255,255,255,0.3);
+      animation: float 3s ease-in-out infinite alternate;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      color: #e0e0e0;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ffffff;
+      color: #0074d9;
+      text-decoration: none;
+      padding: 0.9rem 2.2rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #0074d9;
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(255,255,255,0.25);
+      transform: translateY(-2px);
+    }
+
+    footer {
+      margin-top: 1.8rem;
+      font-size: 0.8rem;
+      color: #ccc;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes float {
+      from { transform: translateY(0); }
+      to { transform: translateY(-6px); }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 🔝 Floating Button (outside the container, elegant animation) -->
+  <a href="https://t.me/+MuqPDU2CWQBhYTRl" class="top-btn" target="_blank">Join Telegram Channel</a>
+
+  <!-- 🧩 Main Glass Container -->
+  <div class="container">
+    <div class="logo-row">
+      <!-- Telegram Logo -->
+      <div class="logo" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg'); background-color:#fff;"></div>
+
+      <!-- Your Channel Logo -->
+      <div class="logo" style="background-image:url('./logo.jpeg'); background-color:#fff;"></div>
+    </div>
+
+    <h1>Cricket Prediction Updates</h1>
+    <p>Get real-time match predictions, toss analysis, and expert winning tips — all in one place. Join our Telegram community today!</p>
+
+    <a href="https://t.me/+MuqPDU2CWQBhYTRl" class="btn" target="_blank">Join on Telegram</a>
+
+    <footer>© 2025 Cricket Prediction Channel</footer>
+  </div>
+</body>
+</html>
